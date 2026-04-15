@@ -2,101 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: cursive;
 }
 
-
-.navbar {
-    display: flex; /*para alinear los espacios en linea*/
-    justify-content: flex-end; /*lo dirigimos a la esquina arriba  derecha */
-    align-items: center; /*lo centramos*/
-    background-color:#2D3A2D; /*el color*/
-    padding: 15px;/*espacio interno para que no se vea apretado*/
-    width: 100%; /*que ocupe todo el ancho*/
-    
-
-    gap: 20px;/*espacio entre cada palabra del menu*/
-
-}
-.navbar ul {
-    display: flex;
-    flex-direction: row;
-
-    gap: 50px;
-}
-.navbar li {
-    list-style: none;
-}
-.navbar a {
-    text-decoration: none;/*Quita el subrayado azul*/
-    color:#fefdfd ;/*color de las letras del menu*/
-    font-weight: 1000; /*un poco mas de grosor*/
-    font-family: cursive; 
-   
-    
-}
-
-
-h1 {
-    background-color: transparent;/*quitamos cualquier fondo para que se vea el color crema de atras*/
-    color:#0D0D0D;/*color del texto*/
-    text-align: left;/*lo centramos*/
-    margin-top: 10px;
-    padding: 20px;/*Espacio arriba y abajo del nombre*/
-    width: 100%;
-    font-size: large;
-    font-family: cursive;
-    line-height: 1.6px;
-    opacity: 0.7; /*opacidad del color del nombre*/
-}
-
-.main {
-    padding: 4rem 0;
-    text-align: center;
-}
-
-
-
-button {
-  padding: 10px 20px;
-  border: 1px solid #F9B825;
-  background-color: #F9B825;
-  color: #F2EFE6;
-  font-weight: 500;
-  margin: 20px 20px;
-  border-radius: 30px;
-}
 
 body {
-    background-color: #F2EFE6;
-}
-
-
-
-.galeria {
+    background-color: #000;
+    font-family: 'Fraunces', serif;
     
-    display: flex;
-    flex-wrap: wrap; /*permiten que las tarjetas bajen sino caben en una fila*/
-    justify-content: center
-    gap 20px; /*espacio entre tarjeta*/
-    padding: 40px;
-
 }
 
-.pet-card {
-    
-    display: flex;
-    flex-direction: column;/*alinea los elementos imag,titulo,texto en columna*/
-    align-items: center; /*centra horizontalmente todo el contenido dentro de la tarjeta*/
-    background-color: #F9B825; 
-    border-radius: 15px;
-    padding: 20px;
-    box-shadow: 0 4px 10px;
-    width: 250px; /*tamaño fijo para la tarjeta y todas sean iguales*/
-    text-align: center; 
-}
-.pet-card img {
-    width: 150px; /*ajustar el ancho */
-    border-radius: 10px;
 
-}
+
+

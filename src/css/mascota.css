@@ -1,0 +1,31 @@
+
+
+
+.galeria {
+    
+    display: flex;
+    flex-wrap: wrap; /*permiten que las tarjetas bajen sino caben en una fila*/
+    justify-content: center; /*centra las tarjetas horizontalmente*/
+    gap: 20px; /*espacio entre tarjeta*/
+    padding: 40px;
+    align-items: center;
+    gap: 20px;
+}
+
+.pet-card:hover {
+    
+    display: flex;
+    flex-direction: column;/*alinea los elementos imag,titulo,texto en columna*/
+    align-items: center; /*centra horizontalmente todo el contenido dentro de la tarjeta*/
+    background-color: #F9B825; 
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 10px;
+    width: 250px; /*tamaño fijo para la tarjeta y todas sean iguales*/
+    text-align: center; 
+}
+.pet-card img {
+    width: 150px; /*ajustar el ancho */
+    border-radius: 10px;
+
+}

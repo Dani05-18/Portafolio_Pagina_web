@@ -1,0 +1,52 @@
+.home { 
+    background-color: floralwhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 4rem;
+}
+.home-description {
+    padding: 0 4rem;
+
+}
+.home-description h2 {
+    font-size: 4rem;
+
+}
+.home-description p {
+    width: 600px;
+    font-size: 1.2rem;
+    color: #444;
+    text-align: justify;
+    padding: 2rem 0;
+    font-family: "poppins" , sans-serif;
+
+}
+.home-photo img {
+    width:  16rem;
+    height: 16rem;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+.home-description ul {
+display: flex;
+gap: 1rem;
+list-style: none;
+padding: 2rem 0;
+}
+.home-description a{
+text-decoration: none;
+color: purple;
+}
+
+.home-description button{
+padding: 0.5rem 2rem;
+border: none;
+border-radius: 1rem;
+background-color: #483D8B;
+font-size: medium;
+
+
+}
