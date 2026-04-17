@@ -1,0 +1,26 @@
+
+.about-skills {
+    background-color: floralwhite;
+    font-family: 'Fraunces', serif;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 2rem 0;
+    
+}
+
+
+.skills-container ul{
+    
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 2rem 0;
+    height: 1rem;
+    gap: 2rem;
+
+}
+
+
+.skills-list i {
+    font-size: 4rem;
+}

@@ -23,9 +23,16 @@
     font-family: "poppins" , sans-serif;
 
 }
+.home-photo {
+    background-color: #DBACF6;
+    padding: 2rem;
+    border-radius: 50%;
+    
+
+}
 .home-photo img {
-    width:  16rem;
-    height: 16rem;
+    width:  20rem;
+    height: 25rem;
     border-radius: 50%;
     object-fit: cover;
 
@@ -45,8 +52,20 @@ color: purple;
 padding: 0.5rem 2rem;
 border: none;
 border-radius: 1rem;
-background-color: #483D8B;
-font-size: medium;
+background-color: #69109D;
+font-size: 1.2rem;
+transition: 0.3s;
+font-family: 'Fraunces', serif;
+font-weight:bold
+
+
+
+
+}
+
+.home-description button:hover {
+    color: aliceblue;
+    
 
 
 }

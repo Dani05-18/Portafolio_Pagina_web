@@ -1,8 +1,30 @@
 .Projects {
-    background-color: blueviolet;
-    font-family: 'Fraunces', serif;
-    text-align: center;
-    font-size:2rem;
-    padding: 2rem 0;
-
+  
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  justify-items: center;
+  align-items: center;
+  background-color: floralwhite;
+  font-size: 2rem;
+  padding: 4rem;
 }
+
+.Projects > :last-child {
+  grid-column: span 2;
+}
+
+.Projects-title {
+  font-family: "Fraunces", serif;
+  grid-column: span 2;
+}
+
+.card-projects img {
+  width: 80%;
+  height: 80%;
+  border-radius: 30px;
+  
+}
+
+
+

@@ -2,11 +2,16 @@
     display: flex; /*para alinear los espacios en linea*/
     justify-content: space-around; 
     align-items: center; /*lo centramos*/
-    background-color:#483D8B; /*el color*/
+    background-color: floralwhite; /*el color*/
     padding: 1.2rem;/*espacio interno para que no se vea apretado*/
     width: 100%; /*que ocupe todo el ancho*/
     gap: 20px;/*espacio entre cada palabra del menu*/
 
+}
+span {
+    color: #040404;
+    font-size: 1.4rem;
+    font-weight: 900;
 }
 .navbar ul {
     display: flex;
@@ -20,12 +25,24 @@
     text-decoration: none;/*Quita el subrayado azul*/
     color:#0a0a0a ;/*color de las letras del menu*/
     font-weight: 1000; /*un poco mas de grosor*/
-    font-family: cursive; 
+   font-family: 'Fraunces', serif; 
+    transition: 0.3s;
+}
+.navbar a:hover {
+    color: purple;
+
+}
+.navbar-list-pets {
+    background-color: #8F16D4;
+    border: 0;
+    border-radius: 2rem;
+    padding: 0.5rem;
+
+}
+.navbar-list-pets a:hover{
+    color: aliceblue;
+
 }
 
-span {
-    color: #040404;
-    font-size: 1.4rem;
-    font-weight: 900;
-}
+
 

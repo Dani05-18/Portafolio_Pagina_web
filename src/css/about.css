@@ -1,5 +1,5 @@
 .about { 
-    background-color: floralwhite;
+   background-color: floralwhite;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,15 +10,14 @@
 .about-container {
     display: flex;
     gap: 10rem;
-   
-
-
+    
 }
 .about-title h2{
     font-family: 'Fraunces', serif;
     text-align: center;
     font-size: 2.5rem;
     padding: 2rem 0;
+   
 }
 .about-title p{
     padding: 2rem;
@@ -28,42 +27,5 @@
 }
 .about-container ul{
     list-style: none;
-}
-.list {
-    display: flex;
-    flex-direction: column;
-    font-size: 1.4rem;
-}
-.about-languages {
-
-   display: flex;
-   flex-direction: column;
-   padding: 2rem;
-}
-
-.about-languages ul {
-    display: flex;
-    gap: 2rem;
-    font-family: "poppins",sans-serif;
-   
-}
-.list span {
-    font-size: 1rem;
-    font-family: "poppins",sans-serif;
-    font-weight: 200;
-}
-.about-skills {
-    font-family: "poppins",sans-serif;
-    padding: 2rem;
-}
-.about-languages h3 {
-    font-size: 1.5rem;
-    text-align: center;
-    font-family: 'Fraunces', serif;
     
-}
-.about-skills h3 {
-    font-size: 1.5rem;
-    font-family: 'Fraunces', serif;
-    text-align: center;
 }
