@@ -1,30 +1,44 @@
+
 .Projects {
   
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
-  justify-items: center;
-  align-items: center;
-  background-color: floralwhite;
+  text-align: center;
   font-size: 2rem;
-  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5rem 0;
 }
 
-.Projects > :last-child {
-  grid-column: span 2;
-}
 
-.Projects-title {
-  font-family: "Fraunces", serif;
-  grid-column: span 2;
-}
 
-.card-projects img {
-  width: 80%;
-  height: 80%;
-  border-radius: 30px;
+.project-container{
+  
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:0.5rem; 
+  padding: 2rem;
+
   
 }
+
+.img-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+ 
+
+}
+.img-container img {
+  width: auto;
+  height: 350px;
+  object-fit:cover;
+  border-radius: 2rem;
+  
+}
+
+
+
 
 
 
