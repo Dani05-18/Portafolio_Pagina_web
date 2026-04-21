@@ -1,43 +1,86 @@
+body {
+    background-color: #ded9e2
+}
+
 .header-titlle {
-    background-color: pink;
-    color: aliceblue;
+    background-color: #c0b9dd;
+    color: black;
     display: flex;
     justify-content: center;
     font-family: 'Fraunces', serif;
-    
 
 }
 
 .galery-container {
-    background-color: aquamarine;
+
     font-family: 'Fraunces', serif;
-  
-    
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    justify-self: center;
+    gap: 3rem;
+
+
+
 }
+
 .text-pets {
-    background-color: blue;
+    background-color: #c0b9dd;
     display: flex;
     justify-content: center;
     font-family: 'Fraunces', serif;
 }
 
 .pet-card {
-    background-color: yellow;
+
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     align-items: center;
+    width: 30rem;
+    justify-content: center;
+    padding: 2rem 1rem;
+
+
 }
 
 .pet-card:hover {
-    
-    background-color: blueviolet;
+
+    background-color: #80a1d4;
     border-radius: 2rem;
     box-shadow: 0 4px 10px;
-    text-align: center; 
+    text-align: center;
 }
+
 .pet-card img {
-    width: 150px; /*ajustar el ancho */
+    width: 400px;
+    /*ajustar el ancho */
     border-radius: 10px;
+    height: 500px;
 
 }
 
+.pet-card p {
+    margin-top: -1rem;
+    font-family: 'Fraunces', serif;
+
+}
+
+.back  {
+    background-color: #80a1d4;
+    
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    
+    font-family: 'Fraunces', serif;
+    font-weight: bold;
+    width: fit-content;
+}
+.back a {
+text-decoration: none;
+transition: 0.3s;
+}
+
+.back a:hover {
+    color: floralwhite;
+}
