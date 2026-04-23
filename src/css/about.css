@@ -6,7 +6,7 @@
     align-items: center;
     gap: 1.5rem;
     font-family: 'Fraunces', serif
-    flex-wrap: wrap;
+    
 }
 
 .about-title h2 {
@@ -25,21 +25,38 @@
     font-family: "poppins", sans-serif;
 }
 
+/*phone*/
+
 @media (max-width: 768px) {
     .about {
         flex-direction: column;
         text-align: center;
         gap: 2rem;
     }
+    .about-title h2 {
+        font-size: 2rem;
+    }
+
+    .about-title p {
+        font-size: 1.2rem;
+        padding: 1.5rem;
+    }
 
 }
+/*tablets*/
 
-@media (max-width: 992px) {
+@media (min-width: 769px) and (max-width: 1024px) {
     .about {
-        flex-direction: column;
-        text-align: center;
-        width: 40rem; 
-        gap: rem; 
+        gap: 2rem;
+        padding: 2rem;
     }
-    
+
+    .about-title h2 {
+        font-size: 2.2rem;
+    }
+
+    .about-title p {
+        font-size: 1.3rem;
+        max-width: 90%;
+    }
 }
