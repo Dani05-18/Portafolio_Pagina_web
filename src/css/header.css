@@ -13,6 +13,13 @@ span {
     font-size: 1.4rem;
     font-weight: 900;
 }
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
 .navbar ul {
     display: flex;
     flex-direction: row;
@@ -43,6 +50,34 @@ span {
     color: aliceblue;
 
 }
+
+@media (max-width: 768px) {
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .navbar {
+        justify-content: space-between;
+    }
+
+    .navbar ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        background-color: floralwhite;
+        width: 200px;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .navbar ul.active {
+        display: flex;
+    }
+}
+
 
 
 

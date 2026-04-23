@@ -7,15 +7,12 @@
 
 body {
    background-color: floralwhite;
-      font-family: 'Fraunces', serif;
+    font-family: 'Fraunces', serif;
+  
     
 }
 
-@media screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
-}
+
 
 
 

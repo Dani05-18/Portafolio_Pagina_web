@@ -5,67 +5,90 @@
     align-items: center;
     min-height: 100vh;
     gap: 4rem;
+    flex-wrap: wrap; /* mejora para pantallas pequeñas */
 }
+
 .home-description {
     padding: 0 4rem;
-
 }
+
 .home-description h2 {
     font-size: 4rem;
-
 }
+
 .home-description p {
-    width: 600px;
+    max-width: 600px; /* mejor que width fijo */
+    width: 100%;
     font-size: 1.2rem;
     color: #444;
     text-align: justify;
     padding: 2rem 0;
-    font-family: "poppins" , sans-serif;
-
+    font-family: "Poppins", sans-serif;
 }
+
 .home-photo {
     background-color: #DBACF6;
     padding: 2rem;
     border-radius: 50%;
-    
-
 }
+
 .home-photo img {
-    width:  20rem;
-    height: 25rem;
+    width: 20rem;
+    height: 20rem; /* ajustado para que sea circular */
     border-radius: 50%;
     object-fit: cover;
-
 }
+
 .home-description ul {
-display: flex;
-gap: 1rem;
-list-style: none;
-padding: 2rem 0;
-}
-.home-description a{
-text-decoration: none;
-color: purple;
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    padding: 2rem 0;
 }
 
-.home-description button{
-padding: 0.5rem 2rem;
-border: none;
-border-radius: 1rem;
-background-color: #69109D;
-font-size: 1.2rem;
-transition: 0.3s;
-font-family: 'Fraunces', serif;
-font-weight:bold
+.home-description a {
+    text-decoration: none;
+    color: purple;
+}
 
-
-
-
+.home-description button {
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: #69109D;
+    font-size: 1.2rem;
+    transition: 0.3s;
+    font-family: 'Fraunces', serif;
+    font-weight: bold;
 }
 
 .home-description button:hover {
-    color: aliceblue;
-    
+    background-color: #4e0b73;
+    color: white;
+    cursor: pointer;
+}
 
+/* Responsive para pantallas pequeñas */
+@media (max-width: 768px) {
+    .home {
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+    }
 
+    .home-description {
+        padding: 0 2rem;
+    }
+
+    .home-description h2 {
+        font-size: 2.5rem;
+    }
+
+    .home-description p {
+        font-size: 1rem;
+    }
+
+    .home-description ul {
+        justify-content: center;
+    }
 }
