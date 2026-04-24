@@ -24,4 +24,25 @@
     font-family: "poppins",sans-serif;
 
 }
+/*phone*/
+
+@media (max-width: 480px) {
+
+  .contact-container {
+    flex-direction: column; /* 🔥 clave */
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+
+  .contact-title {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .contact-icons {
+    justify-content: center;
+    gap: 1rem;
+  }
+}
 
