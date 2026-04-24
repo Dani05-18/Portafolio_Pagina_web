@@ -46,3 +46,9 @@
   }
 }
 
+.contact-icons img {
+    display: flex;
+    flex-direction: row;
+    width: 3rem;
+
+}
