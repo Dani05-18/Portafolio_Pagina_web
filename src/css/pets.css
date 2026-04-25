@@ -1,5 +1,7 @@
 body {
-    background-color: #ded9e2
+    background-color: #ded9e2 ;
+    margin: 0;
+    padding: 0;
 }
 
 .header-titlle {
@@ -8,18 +10,19 @@ body {
     display: flex;
     justify-content: center;
     font-family: 'Fraunces', serif;
+    padding: 1rem;
 
 }
+
 
 .galery-container {
 
     font-family: 'Fraunces', serif;
     display: grid;
     grid-template-columns: 2fr 2fr;
-    justify-self: center;
+    justify-items: center;
     gap: 3rem;
-
-
+    padding: 2rem;
 
 }
 
@@ -28,6 +31,7 @@ body {
     display: flex;
     justify-content: center;
     font-family: 'Fraunces', serif;
+    padding: 1rem;
 }
 
 .pet-card {
@@ -46,15 +50,16 @@ body {
 
     background-color: #80a1d4;
     border-radius: 2rem;
-    box-shadow: 0 4px 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    ;
     text-align: center;
 }
 
 .pet-card img {
-    width: 400px;
-    /*ajustar el ancho */
+    max-width:100%;
     border-radius: 10px;
     height: 500px;
+    object-fit: cover;
 
 }
 
@@ -64,23 +69,77 @@ body {
 
 }
 
-.back  {
+.back {
     background-color: #80a1d4;
-    
     padding: 0.5rem 2rem;
     border: none;
     border-radius: 1rem;
     font-size: 1.2rem;
-    
     font-family: 'Fraunces', serif;
     font-weight: bold;
     width: fit-content;
 }
+
 .back a {
-text-decoration: none;
-transition: 0.3s;
+    text-decoration: none;
+    transition: 0.3s;
 }
 
 .back a:hover {
     color: floralwhite;
+}
+
+/* ── TABLET (max 1024px) ── */
+@media (max-width: 1024px) {
+    .galery-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        padding: 1.5rem;
+    }
+
+    .pet-card {
+        width: 100%;
+    }
+
+    .pet-card img {
+        
+        height: 350px;
+    }
+}
+
+/* ── MOBILE (max 600px) ── */
+@media (max-width: 600px) {
+    .galery-container {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        padding: 1rem;
+    }
+
+    .pet-card {
+        width: 100%;
+        padding: 1rem 0.5rem;
+    }
+
+    .pet-card img {
+        width: 50%;
+        height: auto;
+        /* ← Cambia de 280px a auto */
+        object-fit: unset;
+        /* ← Elimina el recorte */
+    }
+
+    .pet-card p {
+        margin-top: 0.5rem;
+        text-align: center;
+    }
+
+    .back {
+        font-size: 1rem;
+        padding: 0.5rem 1.5rem;
+    }
+
+    .header-titlle {
+        font-size: 1.0rem;
+        text-align: center;
+    }
 }

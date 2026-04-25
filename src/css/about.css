@@ -25,38 +25,54 @@
     font-family: "poppins", sans-serif;
 }
 
-/*phone*/
+/* ── MOBILE (max 600px) ── */
+@media (max-width: 600px) {
+    .galery-container {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        padding: 1rem;
+    }
 
-@media (max-width: 768px) {
-    .about {
-        flex-direction: column;
+    .pet-card {
+        width: 100%;
+        padding: 1rem 0.5rem;
+    }
+
+    .pet-card img {
+        width: 100%;
+        height: auto;        
+        object-fit: unset;   
+    }
+
+    .pet-card p {
+        margin-top: 0.5rem;
         text-align: center;
-        gap: 2rem;
-    }
-    .about-title h2 {
-        font-size: 2rem;
     }
 
-    .about-title p {
+    .back {
+        font-size: 1rem;
+        padding: 0.5rem 1.5rem;
+    }
+
+    .header-titlle {
         font-size: 1.2rem;
+        text-align: center;
+    }
+}
+/* ── TABLET (max 1024px) ── */
+@media (max-width: 1024px) {
+    .galery-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
         padding: 1.5rem;
     }
-
-}
-/*tablets*/
-
-@media (min-width: 769px) and (max-width: 1024px) {
-    .about {
-        gap: 2rem;
-        padding: 2rem;
+ 
+    .pet-card {
+        width: 100%;
     }
-
-    .about-title h2 {
-        font-size: 2.2rem;
-    }
-
-    .about-title p {
-        font-size: 1.3rem;
-        max-width: 90%;
+ 
+    .pet-card img {
+        width: 100%;
+        height: 350px;
     }
 }

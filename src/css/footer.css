@@ -1,54 +1,63 @@
+.footer-brand {
+  background-color: floralwhite;
+  font-family: 'Fraunces', serif;
+  text-align: start;
+  font-size: 1rem;
+  gap: 4rem;
+}
 
+.footer-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 6rem;
+  width: 100%;
 
-
-.contact-title {
-    background-color: floralwhite;
-    font-family: 'Fraunces', serif;
-    text-align: start;
-    font-size:1rem;
-    gap: 4rem;
-} 
-.contact-icons {
-    background-color: floralwhite;
-    display: flex;
-    justify-content: end;
-   font-family: "poppins",sans-serif;
-   
+}
+.social-media {
+  display: flex;
 }
 
 
-
-.contact-container {
-   background-color: floralwhite;
-    display: flex;
-    font-family: "poppins",sans-serif;
+.footer-text {
+  background-color: floralwhite;
+  display: flex;
+  justify-content: center;
+  font-family: "poppins", sans-serif;
 
 }
+
 /*phone*/
 
 @media (max-width: 480px) {
 
-  .contact-container {
-    flex-direction: column; /* 🔥 clave */
+  .footer-text {
+    flex-direction: column;
     align-items: center;
     gap: 1.5rem;
     padding: 1rem;
   }
 
-  .contact-title {
+  .footer-brand {
     text-align: center;
     font-size: 1.2rem;
   }
 
-  .contact-icons {
+  .footer-icons {
     justify-content: center;
     gap: 1rem;
   }
 }
 
-.contact-icons img {
-    display: flex;
-    flex-direction: row;
-    width: 3rem;
+.footer-icons img {
+  display: flex;
+  flex-direction: row;
+  width: 3rem;
+
+}
+
+.footer-copyright {
+  display: flex;
+  justify-content: center;
 
 }
