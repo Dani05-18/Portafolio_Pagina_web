@@ -10,7 +10,7 @@ JavaScript (basic)
 
 ## Project Structure
 
-.
+```id=
 ├── index.html
 ├── README.md
 ├── public
@@ -44,14 +44,16 @@ JavaScript (basic)
     └── view
         └── pets.html
 
+```
+
 ## Features
 
 - Responsive design (mobile, tablet and desktop)
--Navigation bar with mobile menu toggle
--Organized sections using semantic HTML
--Pet image gallery using CSS Grid
--Contact form
--Media queries for all screen sizes
+  -Navigation bar with mobile menu toggle
+  -Organized sections using semantic HTML
+  -Pet image gallery using CSS Grid
+  -Contact form
+  -Media queries for all screen sizes
 
 ## Sections
 
@@ -65,11 +67,9 @@ ContactContact form
 
 ## Pets Page
 
-
 An additional page (src/view/pets.html) featuring a responsive gallery of pets built with CSS Grid. Accessible from the navigation bar.
 
 ## Live Demo
-
 
 https://dani05-18.github.io/
 
@@ -83,7 +83,6 @@ Open the project folder in your code editor.
 Run it with Live Server or open index.html directly in your browser.
 
 ## Author
-
 
 Daniella Zapata
 
